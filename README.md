@@ -1,6 +1,6 @@
 # Personal Portfolio – George Williams V
 
-Welcome to the source code for my personal developer portfolio. Built with **React**, **TypeScript**, and **Tailwind CSS**, this project was an exercise to get some practice in with Front End technologies
+Welcome to the source code for my personal developer portfolio. Built with **React**, **TypeScript**, and **Tailwind CSS**, this project was an exercise to get some practice with front-end technologies
 
 ---
 
@@ -25,20 +25,20 @@ Welcome to the source code for my personal developer portfolio. Built with **Rea
 ## 📁 Project Structure
 
 - website-v2/
-   - public/
-      - images/
-   - src/
-      - components/
-      - App.tsx
-      - index.css
-      - main.tsx
-      - vite-env.d.ts
-   - index.html
-   - package.json
-   - tailwind.config.js
-   - tsconfig.json
-   - vite.config.ts
-   - README.md
+  - public/
+    - images/
+  - src/
+    - components/
+    - App.tsx
+    - index.css
+    - main.tsx
+    - vite-env.d.ts
+  - index.html
+  - package.json
+  - tailwind.config.js
+  - tsconfig.json
+  - vite.config.ts
+  - README.md
 
 ## 🧪 Running Locally
 
@@ -62,3 +62,9 @@ Planned improvements and additions:
 - [ ] **Light/Dark Mode Toggle**
 - [ ] **Blog Section** — Add long-form posts on engineering, career, and tooling
 - [ ] **CI/CD Pipeline** — Automate deployments to AWS with GitHub Actions
+
+## Image Attributions
+
+- “Amberflo Logo” by Amberflo – [amberflo.io](https://amberflo.io) – Used under CC BY-SA 4.0
+- "Computer Icons" - [Freepick - flaticon](https://www.flaticon.com/free-icons/computer)
+- "AWS Icon" - [icons8](https://icons8.com/icon/33039/amazon-web-services)

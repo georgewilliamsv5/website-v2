@@ -41,7 +41,7 @@ const skillItem = [
   },
   {
     imgSrc: "/images/timestream.svg",
-    label: "TimeStream",
+    label: "Timestream",
     desc: "Time Series Database",
     url: "https://aws.amazon.com/timestream/",
   },

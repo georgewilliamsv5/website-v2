@@ -37,7 +37,7 @@ const references = [
   },
   {
     content:
-      "A great engineer who is able to pick things up quickly and explain things to others simply. Would love to work with George again",
+      "A great engineer who is able to pick things up quickly and explain things to others simply. Would love to work with George again.",
     name: "Dakota O'Dell",
     imgSrc: "/images/dakota-edited.jpg",
     company: "Alteryx",
