@@ -24,14 +24,28 @@ Welcome to the source code for my personal developer portfolio. Built with **Rea
 
 ## 📁 Project Structure
 
-/
-├── public/ # Static assets (images, resume, etc.)
-├── src/ # React components and styles
-│ ├── components/ # UI components
-│ └── main.tsx # Entry point
-├── tailwind.config.js # Tailwind setup
-├── vite.config.ts # Vite bundler config
-└── README.md # This file
+website-v2/
+├── public/ # Static assets (images, resume.pdf, etc.)
+│ ├── images/
+│ └── resume.pdf
+├── src/ # Application source code
+│ ├── components/ # Reusable React components
+│ │ ├── About.tsx
+│ │ ├── Navbar.tsx
+│ │ ├── ProjectCard.tsx
+│ │ └── ...
+│ ├── App.tsx # Main app component
+│ ├── index.css # Tailwind styles + base layer
+│ ├── main.tsx # Vite entry point
+│ └── vite-env.d.ts
+├── .gitignore
+├── index.html # HTML entry point
+├── package.json
+├── postcss.config.js
+├── tailwind.config.js
+├── tsconfig.json
+├── vite.config.ts
+└── README.md
 
 ---
 
