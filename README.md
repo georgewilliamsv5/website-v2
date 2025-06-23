@@ -28,11 +28,11 @@ Welcome to the source code for my personal developer portfolio. Built with **Rea
    - public/
       - images/
    - src/
-   - components/
-   - App.tsx
-   - index.css
-   - main.tsx
-   - vite-env.d.ts
+      - components/
+      - App.tsx
+      - index.css
+      - main.tsx
+      - vite-env.d.ts
    - index.html
    - package.json
    - tailwind.config.js
