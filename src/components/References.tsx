@@ -27,6 +27,7 @@ const references = [
     name: "Talha Aftab",
     imgSrc: "/images/talha.jpg",
     company: "Amberflo",
+    linkedInUrl: "https://www.linkedin.com/in/talha-m-aftab/",
   },
   {
     content:
@@ -34,6 +35,7 @@ const references = [
     name: "Chris Park",
     imgSrc: "/images/chris.jpg",
     company: "Alteryx",
+    linkedInUrl: "https://www.linkedin.com/in/chris-park-b1b6bb1/",
   },
   {
     content:
@@ -41,6 +43,7 @@ const references = [
     name: "Dakota O'Dell",
     imgSrc: "/images/dakota-edited.jpg",
     company: "Alteryx",
+    linkedInUrl: "https://www.linkedin.com/in/dakotaodell/",
   },
 ];
 
@@ -66,15 +69,18 @@ const References = () => {
         <h2 className="headline-2 mb-8 reveal-up">References</h2>
 
         <div className="scrub-slide flex items-stretch gap-3 w-fit">
-          {references.map(({ content, name, imgSrc, company }, key) => (
-            <ReferenceCard
-              key={key}
-              name={name}
-              imgSrc={imgSrc}
-              company={company}
-              content={content}
-            />
-          ))}
+          {references.map(
+            ({ content, name, imgSrc, company, linkedInUrl }, key) => (
+              <ReferenceCard
+                key={key}
+                name={name}
+                imgSrc={imgSrc}
+                company={company}
+                content={content}
+                linkedInUrl={linkedInUrl}
+              />
+            )
+          )}
         </div>
       </div>
     </section>

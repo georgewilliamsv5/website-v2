@@ -6,7 +6,7 @@ Welcome to the source code for my personal developer portfolio. Built with **Rea
 
 ## 🚀 Live Site
 
-🌐 [georgewilliamsv5.com](https://georgewilliamsv5.com)  
+🌐 [georgewillv.com](https://georgewillv.com)  
 📂 [Resume (PDF)](public/resume.pdf)
 
 ---
@@ -56,15 +56,17 @@ Welcome to the source code for my personal developer portfolio. Built with **Rea
 
 ## 🗺️ Roadmap
 
-Planned improvements and additions:
+Planned improvements and additions (in order of priority):
 
-- [ ] **Improve Scrolling on various window sizes**
-- [ ] **Light/Dark Mode Toggle**
-- [ ] **Blog Section** — Add long-form posts on engineering, career, and tooling
+- [ ] **Improve Scrolling on various window sizes** — Mobile, laptops, various monitors etc.
+- [ ] **Make it so that users only need to click the navbar link once** — if the scroll isn't finished the redirect to a new section doesn't occur.
 - [ ] **CI/CD Pipeline** — Automate deployments to AWS with GitHub Actions
+- [ ] **Blog Section** — Add long-form posts on engineering, career, and tooling
+- [ ] **Light/Dark Mode Toggle** - (for CSS practice)
 
 ## Image Attributions
 
 - “Amberflo Logo” by Amberflo – [amberflo.io](https://amberflo.io) – Used under CC BY-SA 4.0
+- "Alteryx Logo" by Alteryx - [alteryx.com](https://www.alteryx.com/)
 - "Computer Icons" - [Freepick - flaticon](https://www.flaticon.com/free-icons/computer)
 - "AWS Icon" - [icons8](https://icons8.com/icon/33039/amazon-web-services)

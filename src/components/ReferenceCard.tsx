@@ -8,6 +8,7 @@ type ReferenceCardProps = {
   imgSrc: string;
   name: string;
   company: string;
+  linkedInUrl: string;
 };
 
 const ratings = new Array(5);
@@ -21,6 +22,7 @@ const ReferenceCard = ({
   imgSrc,
   name,
   company,
+  linkedInUrl,
 }: ReferenceCardProps) => {
   return (
     <div className="bg-zinc-800 p-5 rounded-xl min-w-[320px] flex flex-col lg:min-w-[420px]">
@@ -49,7 +51,14 @@ const ReferenceCard = ({
         </figure>
 
         <div>
-          <p>{name}</p>
+          <a
+            href={linkedInUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white hover:underline"
+          >
+            {name}
+          </a>
 
           <p className="text-xs text-zinc-400 tracking-wider">{company}</p>
         </div>

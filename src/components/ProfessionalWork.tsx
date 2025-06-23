@@ -27,7 +27,7 @@ const experience = [
   },
   {
     imgSrc: "/images/alteryx_logo.svg",
-    title: "Owned the AIS Product Suite",
+    title: "Worked on code for the AIS product suite",
     tags: [
       "Python",
       "React",
@@ -37,7 +37,7 @@ const experience = [
       "pandas",
       "scikit-learn",
     ],
-    projectLink: "https://www.amberflo.io/",
+    projectLink: "https://www.alteryx.com/products/intelligence-suite",
   },
 ];
 
