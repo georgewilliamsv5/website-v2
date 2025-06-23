@@ -24,29 +24,7 @@ Welcome to the source code for my personal developer portfolio. Built with **Rea
 
 ## 📁 Project Structure
 
-website-v2/
-├── public/                  # Static assets (images, resume.pdf, etc.)
-│   ├── images/
-│   └── resume.pdf
-├── src/                     # Application source code
-│   ├── components/          # Reusable React components
-│   │   ├── About.tsx
-│   │   ├── Navbar.tsx
-│   │   ├── ProjectCard.tsx
-│   │   └── ...
-│   ├── App.tsx              # Main app component
-│   ├── index.css            # Tailwind styles + base layer
-│   ├── main.tsx             # Vite entry point
-│   └── vite-env.d.ts
-├── .gitignore
-├── index.html               # HTML entry point
-├── package.json
-├── postcss.config.js
-├── tailwind.config.js
-├── tsconfig.json
-├── vite.config.ts
-└── README.md
-
+<pre lang="md"><code>website-v2/ ├── public/ # Static assets │ ├── images/ # Image assets │ └── resume.pdf # Your resume ├── src/ # Application source code │ ├── components/ # Reusable React components │ │ ├── About.tsx │ │ ├── Attribution.tsx │ │ ├── Button.tsx │ │ ├── Champion.tsx │ │ ├── Contact.tsx │ │ ├── Footer.tsx │ │ ├── Header.tsx │ │ ├── Navbar.tsx │ │ ├── ProfessionalWork.tsx │ │ ├── ProjectCard.tsx │ │ ├── ReferenceCard.tsx │ │ ├── References.tsx │ │ ├── Skill.tsx │ │ └── SkillCard.tsx │ ├── App.tsx # Main app component │ ├── index.css # Tailwind + base styles │ ├── main.tsx # Vite entry point │ └── vite-env.d.ts # TypeScript environment definitions ├── .gitignore ├── index.html # HTML entry point ├── package.json ├── package-lock.json ├── postcss.config.js ├── tailwind.config.js ├── tsconfig.json ├── tsconfig.app.json ├── tsconfig.node.json ├── vite.config.ts └── README.md </code></pre>
 ---
 
 ## 🧪 Running Locally
