@@ -18,7 +18,7 @@ Welcome to the source code for my personal developer portfolio. Built with **Rea
 - **Styling:** Tailwind CSS
 - **Tooling:** Vite, PostCSS
 - **CI/CD:** GitHub Actions (planned)
-- **Hosting:** AWS (S3 + CloudFront)
+- **Hosting:** AWS Amplify (For simplicity. If this grows into something more complex then S3 + CloudFront)
 
 ---
 
