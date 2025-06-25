@@ -6,7 +6,7 @@ Welcome to the source code for my personal developer portfolio. Built with **Rea
 
 ## 🚀 Live Site
 
-🌐 [georgewillv.com](https://georgewillv.com)  
+🌐 [georgewillv.com](https://www.georgewillv.com)  
 📂 [Resume (PDF)](public/resume.pdf)
 
 ---
